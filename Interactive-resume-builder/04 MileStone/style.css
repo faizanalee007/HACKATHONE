@@ -1,0 +1,163 @@
+
+/*  Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 18px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+section {
+    margin-bottom: 10px;
+}
+
+/* For all H2 Tags */
+h2 {
+    background: #333;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin-bottom: 3px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Personal Info Section */
+#personal-info {
+    background: #f4f4f4;
+}
+
+#personal-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#personal-info a:hover {
+    text-decoration: underline;
+}
+
+/* For main Buttons */
+.button {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+/* Toggle Buttons */
+.toggle-btn {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 30px;
+}
+
+.toggle-btn:hover {
+    background: #0056b3;
+}
+
+
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea.form-input {
+    resize: vertical;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+
+.resume-builder h2 {
+    margin-bottom: 15px;
+}
+
+.resume-builder label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
