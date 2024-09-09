@@ -146,7 +146,6 @@ reGenerateButton.addEventListener('click', ()=>{
 const downloadButton = document.getElementById('download-cv') as HTMLButtonElement
 downloadButton.addEventListener('click',()=>{
 
-    const resumeElement = document.getElementById("resume");
       const opt = {
         margin: 0,
         filename: "Resume.pdf",
@@ -156,7 +155,7 @@ downloadButton.addEventListener('click',()=>{
         pagebreak: { mode: ['avoid-all', 'css', 'legacy']  // Optional: helps to prevent breaking important sections
         }
       };
-      html2pdf().from(resumeElement).set(opt).save();
+      html2pdf().from(resumeSection).set(opt).save();
     });
 
 

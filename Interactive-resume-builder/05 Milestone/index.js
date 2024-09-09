@@ -120,7 +120,6 @@ reGenerateButton.addEventListener('click', function () {
 });
 var downloadButton = document.getElementById('download-cv');
 downloadButton.addEventListener('click', function () {
-    var resumeElement = document.getElementById("resume");
     var opt = {
         margin: 0,
         filename: "Resume.pdf",
@@ -130,5 +129,5 @@ downloadButton.addEventListener('click', function () {
         pagebreak: { mode: ['avoid-all', 'css', 'legacy'] // Optional: helps to prevent breaking important sections
         }
     };
-    html2pdf().from(resumeElement).set(opt).save();
+    html2pdf().from(resumeSection).set(opt).save();
 });
